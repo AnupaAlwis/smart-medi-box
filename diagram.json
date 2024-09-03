@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "author": "Uri Shaked",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard", "id": "bb1", "top": 208.2, "left": -266, "attrs": {} },
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -162.9,
+      "left": 263.4,
+      "attrs": { "temperature": "40.9" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -93.6,
+      "left": -209.4,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": -201.9,
+      "left": -178.3,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr2",
+      "top": -201.9,
+      "left": 109.7,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": -2.8,
+      "left": -496.4,
+      "rotate": 180,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "dht1:SDA", "esp:D15", "green", [ "v0" ] ],
+    [ "bz1:2", "esp:D12", "green", [ "v0" ] ],
+    [ "esp:3V3", "bb1:tp.50", "red", [ "v-4.9", "h234.7" ] ],
+    [ "esp:GND.1", "bb1:tn.49", "black", [ "h0" ] ],
+    [ "dht1:VCC", "bb1:tp.45", "red", [ "v0" ] ],
+    [ "dht1:GND", "bb1:tn.47", "black", [ "v0" ] ],
+    [ "bz1:1", "bb1:tn.5", "black", [ "v0" ] ],
+    [ "ldr2:AO", "esp:D33", "blue", [ "v0" ] ],
+    [ "ldr2:GND", "bb1:tn.38", "black", [ "v0" ] ],
+    [ "ldr2:VCC", "bb1:tp.39", "red", [ "v0" ] ],
+    [ "ldr1:VCC", "bb1:tp.14", "red", [ "v0" ] ],
+    [ "ldr1:GND", "bb1:tn.13", "black", [ "v0" ] ],
+    [ "ldr1:AO", "esp:D32", "orange", [ "v0" ] ],
+    [ "servo1:GND", "bb1:tn.1", "black", [ "h0" ] ],
+    [ "servo1:V+", "bb1:tp.2", "orange", [ "h0" ] ],
+    [ "servo1:PWM", "esp:D14", "gold", [ "h182.4", "v57.4" ] ]
+  ],
+  "dependencies": {}
+}
