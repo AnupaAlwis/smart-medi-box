@@ -42,8 +42,6 @@ Developed with the following tools:
 - [Features](#features)
 - [Components](#components)
 - [How It Works](#how-it-works)
-- [Node-RED Flow](#node-red-flow)
-- [Running Node-RED](#running-node-red)
 - [MQTT Topics](#mqtt-topics)
 - [Getting Started](#getting-started)
 - [Building](#building)
