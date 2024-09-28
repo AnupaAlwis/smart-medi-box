@@ -108,8 +108,7 @@ Follow these steps to get started with **ESP32 Medibox**:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/Gayanukaa/ESP32-Medibox.git
-    cd ESP32-Medibox
+    git clone https://github.com/AnupaAlwis/smart-medi-box.git
     ```
 
 2. **Install Dependencies**:
