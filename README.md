@@ -118,26 +118,9 @@ Follow these steps to get started with **ESP32 Medibox**:
       - DHTesp
       - ESP32Servo
       - ArduinoJson
-    - If using **PlatformIO**, the required libraries are specified in the `platformio.ini` file and will be installed automatically.
 
 3. **Configure WiFi & MQTT**:
     - Update the `setupWifi()` and `setupMqtt()` functions in the code with your **WiFi credentials** and **MQTT broker details**.
-
-4. **Upload the Code**:
-    - Connect your ESP32 and upload the code via **Arduino IDE** or **PlatformIO**.
-
----
-
-## Building
-
-This is a **PlatformIO** project. To build it:
-
-1. Install **PlatformIO**.
-2. Run the following command to compile the code:
-    ```bash
-    pio run
-    ```
-This will compile and prepare the code for upload to the ESP32.
 
 ---
 
