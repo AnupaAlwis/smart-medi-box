@@ -88,30 +88,6 @@ The **ESP32 Medibox** helps users manage their medication schedules with real-ti
 
 ---
 
-## Running Node-RED
-
-To control your **ESP32 Medibox** with Node-RED:
-
-1. **Install Node-RED**:
-    - If **Node.js** isn't installed, [install it first](https://nodejs.org/en/).
-    - Open a terminal and run:
-      ```bash
-      npm install -g --unsafe-perm node-red
-      ```
-
-2. **Start Node-RED**:
-    - Launch Node-RED with:
-      ```bash
-      node-red
-      ```
-    - Access Node-RED via [http://localhost:1880](http://localhost:1880).
-
-3. **Create Flows**:
-    - Use the Node-RED interface to create flows that interact with your ESP32.
-    - Visualize data and control the **Medibox** directly from your browser.
-
----
-
 ## MQTT Topics
 
 The following MQTT topics are used in this project:
