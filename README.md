@@ -142,7 +142,7 @@ This project is licensed under the **MIT License**.
 
 For any questions or inquiries:
 
-- GitHub: [Anupa](https://github.com/AnupaAlwis)
+- GitHub: [AnupaAlwis](https://github.com/AnupaAlwis)
 - Email: isurajithalwis@gmail.com
 
 ---
