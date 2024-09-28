@@ -18,7 +18,6 @@ Developed with the following tools:
 
 [![VS Code](https://img.shields.io/badge/Editor-VS%20Code-blue.svg)](https://code.visualstudio.com/)
 [![Arduino](https://img.shields.io/badge/Platform-Arduino-blue.svg)](https://www.arduino.cc/)
-[![PlatformIO](https://img.shields.io/badge/Platform-PlatformIO-orange.svg)](https://platformio.org/)
 [![Node-RED](https://img.shields.io/badge/Tool-Node--RED-red.svg)](https://nodered.org/)
 [![Wokwi](https://img.shields.io/badge/Simulation-Wokwi-green.svg)](https://wokwi.com/)
 
