@@ -44,9 +44,7 @@ Developed with the following tools:
 - [How It Works](#how-it-works)
 - [MQTT Topics](#mqtt-topics)
 - [Getting Started](#getting-started)
-- [Building](#building)
 - [Simulating](#simulating)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
