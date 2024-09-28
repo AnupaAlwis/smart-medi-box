@@ -1,10 +1,10 @@
-# ESP32 Medibox 🚑
+# ESP32 Medibox 
 
 **ESP32 Medibox** is an intelligent medicine box designed to help individuals manage their medication schedule efficiently. Powered by the **ESP32 microcontroller**, this project integrates multiple sensors and actuators for comprehensive medication management, ensuring that you never miss a dose again.
 
 ---
 
-## ⚙️ Overview
+## Overview
 
 This project utilizes various sensors, actuators, and communication modules controlled by the ESP32 to provide features like:
 
@@ -24,13 +24,21 @@ Developed with the following tools:
 
 ---
 
-## 📐 Circuit Diagram
+
+## Circuit Diagram
+
+![Screenshot 2024-09-27 232921](https://github.com/user-attachments/assets/aa21ed51-3454-45a1-acfe-1733a0d69fda)
+
+
+---
+
+## DashBoard
 
 ![Screenshot 2024-09-27 234146](https://github.com/user-attachments/assets/1b74c568-cb0b-419a-8ddf-2d911265947c)
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Components](#components)
@@ -47,7 +55,7 @@ Developed with the following tools:
 
 ---
 
-## ✨ Features
+## Features
 
 - **WiFi Connectivity**: Remote monitoring and control via **MQTT**.
 - **Temperature & Humidity Monitoring**: Environmental tracking with **DHT22**.
@@ -59,7 +67,7 @@ Developed with the following tools:
 
 ---
 
-## 🧩 Components
+## Components
 
 - **ESP32**: Main microcontroller.
 - **DHT22**: Sensor for temperature and humidity.
@@ -70,7 +78,7 @@ Developed with the following tools:
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 The **ESP32 Medibox** helps users manage their medication schedules with real-time monitoring and notifications:
 
@@ -81,13 +89,7 @@ The **ESP32 Medibox** helps users manage their medication schedules with real-ti
 
 ---
 
-## 🔄 Node-RED Flow
-
-The Node-RED flow for this project is available in the `node-red-flow.json` file. You can import it into your Node-RED instance to interact with the **ESP32 Medibox** via **MQTT**.
-
----
-
-## 🖥️ Running Node-RED
+## Running Node-RED
 
 To control your **ESP32 Medibox** with Node-RED:
 
@@ -111,7 +113,7 @@ To control your **ESP32 Medibox** with Node-RED:
 
 ---
 
-## 📡 MQTT Topics
+## MQTT Topics
 
 The following MQTT topics are used in this project:
 
@@ -127,7 +129,7 @@ The following MQTT topics are used in this project:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to get started with **ESP32 Medibox**:
 
@@ -154,7 +156,7 @@ Follow these steps to get started with **ESP32 Medibox**:
 
 ---
 
-## 🔧 Building
+## Building
 
 This is a **PlatformIO** project. To build it:
 
@@ -167,7 +169,7 @@ This will compile and prepare the code for upload to the ESP32.
 
 ---
 
-## 🖥️ Simulating
+## Simulating
 
 You can simulate this project using **Wokwi** for VS Code:
 
@@ -177,7 +179,7 @@ You can simulate this project using **Wokwi** for VS Code:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are always welcome! To contribute:
 
@@ -198,13 +200,13 @@ Contributions are always welcome! To contribute:
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-## 📞 Contact
+## Contact
 
 For any questions or inquiries:
 
