@@ -26,7 +26,7 @@ Developed with the following tools:
 
 ## 📐 Circuit Diagram
 
-You can find the complete **circuit diagram** and a **simulation** on Wokwi. [Check it out here](https://wokwi.com/).
+![Screenshot 2024-09-27 234146](https://github.com/user-attachments/assets/1b74c568-cb0b-419a-8ddf-2d911265947c)
 
 ---
 
