@@ -120,15 +120,6 @@ Follow these steps to get started with **ESP32 Medibox**:
 3. **Configure WiFi & MQTT**:
     - Update the `setupWifi()` and `setupMqtt()` functions in the code with your **WiFi credentials** and **MQTT broker details**.
 
----
-
-## Simulating
-
-You can simulate this project using **Wokwi** for VS Code:
-
-1. Open the project in **VS Code**.
-2. Press `F1` and select **Wokwi: Start Simulator**.
-3. Interact with the simulation and test the functionality before deploying to real hardware.
 
 ---
 
