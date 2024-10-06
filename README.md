@@ -107,9 +107,8 @@ Before getting started, ensure you have the following tools and setups ready:
 
 1. **Git** – Ensure Git is installed on your system for version control.
 2. **PlatformIO with Arduino Framework** – Set up PlatformIO with the Arduino framework for development.
-3. **Relevant Hardware** – Have the necessary hardware for testing (if not using simulations).
-4. **Node-RED** – Install and set up a Node-RED environment.
-5. **MQTT Broker** – Set up an MQTT Broker for communication.
+3. **Node-RED** – Install and set up a Node-RED environment.
+4. **MQTT Broker** – Set up an MQTT Broker for communication.
 
 Refer to the relevant documentation for installing each of the tools if needed.
 
