@@ -64,23 +64,22 @@ Developed with the following tools:
 
 ## Components
 
-- **ESP32**: Main microcontroller.
-- **DHT22**: Sensor for temperature and humidity.
-- **LDRs**: For detecting ambient light levels.
-- **Servo Motor**: Moves a shaded window according to light levels.
-- **Buzzer**: Provides audio notifications.
-- **Buttons**: For manual user input and interaction.
+- ESP32 Main microcontroller.
+- ADAFRUIT SSD 1306 OLED Monochrome Display (128x64)
+- DHT22 Sensor for temperature and humidity.
+- LDRs For detecting ambient light levels.
+- Servo Motor for shade window moving system.
+- Buzzer Provides audio notifications.
+- Push buttons For manual user input and interaction.
 
 ---
 
-## How It Works
+## Operation
 
-The **ESP32 Medibox** helps users manage their medication schedules with real-time monitoring and notifications:
-
-1. **Environmental Monitoring**: Constantly measures **temperature**, **humidity**, and **light intensity**.
-2. **Reminders**: Uses a **buzzer** to notify users when it’s time to take medication.
-3. **Remote Monitoring**: Users can monitor and control the device remotely using **MQTT**.
-4. **Customizable Settings**: Adjust servo motor parameters (e.g., minimum angle) via MQTT.
+1. Constantly measures **temperature**, **humidity**, and **light intensity**.
+2. Uses a **buzzer** to notify users when it’s time to take medication.
+3. Users can monitor and control the device remotely using **MQTT**.
+4. Adjust servo motor parameters (e.g., minimum angle) via MQTT.
 
 ---
 
@@ -102,25 +101,24 @@ The following MQTT topics are used in this project:
 
 ## Getting Started
 
+## Prerequisites
+
+Before getting started, ensure you have the following tools and setups ready:
+
+1. **Git** – Ensure Git is installed on your system for version control.
+2. **PlatformIO with Arduino Framework** – Set up PlatformIO with the Arduino framework for development.
+3. **Relevant Hardware** – Have the necessary hardware for testing (if not using simulations).
+4. **Node-RED** – Install and set up a Node-RED environment.
+5. **MQTT Broker** – Set up an MQTT Broker for communication.
+
+Refer to the relevant documentation for installing each of the tools if needed.
+
 Follow these steps to get started with **ESP32 Medibox**:
 
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/AnupaAlwis/smart-medi-box.git
     ```
-
-2. **Install Dependencies**:
-    - Install the following libraries via **Arduino IDE** Library Manager:
-      - WiFi
-      - PubSubClient
-      - DHTesp
-      - ESP32Servo
-      - ArduinoJson
-
-3. **Configure WiFi & MQTT**:
-    - Update the `setupWifi()` and `setupMqtt()` functions in the code with your **WiFi credentials** and **MQTT broker details**.
-
-
 ---
 
 ## License
